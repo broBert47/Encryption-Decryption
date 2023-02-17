@@ -4,5 +4,6 @@ enum class Parameters (val value: String) {
     KEY("-key"),
     DATA("-data"),
     IN("-in"),
-    OUT("-out")
+    OUT("-out"),
+    METHOD("-alg")
 }
